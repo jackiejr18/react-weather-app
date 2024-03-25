@@ -12,8 +12,13 @@ import humidity_icon from '../Assets/humidity.png'
 
 const WeatherApp = () => {
   return (
-    <div>
-      
+    <div className='container'>
+      <div className='top-bar'>
+        <input type='text' className='cityInput' placeholder='search'/>
+        <div className='search-icon'>
+          <img src={search_icon}/>
+        </div>
+      </div>
     </div>
   )
 }
