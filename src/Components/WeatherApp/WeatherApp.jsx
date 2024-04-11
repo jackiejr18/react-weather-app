@@ -20,7 +20,7 @@ const WeatherApp = () => {
       return 0;
     }
 
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=London&units=Imperial&appid=6f4e9a209e873afba9f34037f1ad9f44`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Imperial&appid=${api_key}`;
   }
 
   return (
